@@ -70,7 +70,12 @@
             width: 100px;
             aspect-ratio: 1;
             border-radius: 50%;
-            box-shadow: 0 0 8px 1px lightblue;
+            box-shadow: 0 0 8px 1px rgb(239, 251, 255);
+        }
+
+        #profile:hover {
+            width: 110px;
+            transition: 90ms;
         }
 
         a {
@@ -88,6 +93,10 @@
             transition-duration: 200ms;
         }
 
+        div > a:hover { 
+            width: 104%;
+        }
+
         a:hover {
             background: white;
             color: #0f172a;
@@ -99,10 +108,10 @@
     </style>
 </head>
 <body>
-    <img src="images/4884451.jpg" alt="bg">
+    <img src="images/4884451.jpg" alt="background image">
     <section>
         <div>
-            <img src="images/myprofile.jpg" alt="profile">
+            <img src="images/myprofile.jpg" id="profile" alt="profile image">
     <h2>Matheus Meigre</h2>
     <div>
         <a href="https://github.com/matheusmeigre" target="_blank">
